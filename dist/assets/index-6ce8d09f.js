@@ -3939,4 +3939,4 @@ void main() {
         gl_FragColor = vec4(vColor, 1.0);
       }
     `,transparent:!1,vertexColors:!0}),S_=new Zl(Ti,E_);wn.add(S_);const fc=new tc(16777215,1);wn.add(fc);const T_=new sc,pc=()=>{T_.getElapsedTime();const s=Ti.attributes.position.array,e=Ti.attributes.speed.array;for(let t=0;t<os;t++){const n=s[t*3+0],i=s[t*3+1],r=s[t*3+2];s[t*3+0]=Os.lerp(n,n+e[t]*(Math.random()-.5),.1),s[t*3+1]=Os.lerp(i,i+e[t]*(Math.random()-.5),.1),s[t*3+2]=Os.lerp(r,r+e[t]*(Math.random()-.5),.1),s[t*3+0]=(s[t*3+0]+5)%10-5,s[t*3+1]=(s[t*3+1]+5)%10-5,s[t*3+2]=(s[t*3+2]+5)%10-5}Ti.attributes.position.needsUpdate=!0,fc.position.set(Xt.position.x,Xt.position.y,Xt.position.z),rs.update(),fn.render(wn,Xt),window.requestAnimationFrame(pc)};pc();
-//# sourceMappingURL=index-b7df5e51.js.map
+//# sourceMappingURL=index-6ce8d09f.js.map
